@@ -1,0 +1,80 @@
+:root {
+  --color1: red;
+  --color2: blue;
+  --color3: green;
+  --radius: 8px;
+}
+
+/*
+
+<svg class="icon">
+  <use xlink:href="#logo"></use>
+</svg>
+
+<svg class="icon">
+  <use xlink:href="#x"></use>
+</svg>
+
+<svg class="icon">
+  <use xlink:href="#inst"></use>
+</svg>
+
+<svg class="icon">
+  <use xlink:href="#vk"></use>
+</svg>
+
+<svg class="icon">
+  <use xlink:href="#tg"></use>
+</svg>
+
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.header {
+  margin-bottom: 80px;
+  padding: 15px;
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-svg {
+  width: 110px;
+}
+
+.header-wrapper {
+  width: 60%;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hidden {
+  position: absolute !important;
+}
+
+.footer {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 190px;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,8 @@
+.footer-statistic{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer-statistic-item{
+	color: white;
+}
